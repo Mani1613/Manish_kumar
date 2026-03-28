@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        header {
+            background-color: red;
+            color: white;
+            text-align: center;
+            border: 2px solid black;
+            padding: 20px;
+            font-size: 40px;
+            border-radius: 50px;
+        }
+        footer {
+            background-color: red;
+            color: white;
+            text-align: center;
+            border: 2px solid black;
+            padding: 20px;
+            font-size: 40px;
+            border-radius: 50px;
+        }
+        section {
+            display: grid;
+            grid-template-columns: 4fr 4fr 4fr;
+            height: 550px;
+            margin-top: 20px;
+        }
+        figure {
+            border: 2px solid black;
+            width: 200px;
+            height: 150px;
+            padding: 20px;
+        }
+        aside {
+            border: 5px dashed red;
+            width: 200px;
+            height: 150px;
+            padding: 10px;
+        }
+        article {
+            background-color: red;
+            color: white;
+            padding: 10px;
+            border: 5px solid yellow;
+            width: 200px;
+        }
+        nav div {
+            background-color: red;
+            color: white;
+            border: 5px solid black;
+            margin-bottom: 10px;
+            padding: 15px;
+            font-size: 20px;
+            border-radius: 30px;
+            margin-left: -45px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        amazon shopping
+    </header>
+    <section>
+        <nav>
+            <menu>
+                <div>home</div>
+                <div>about</div>
+                <div>contact</div>
+                <div>services</div>
+                <div>gallery</div>
+            </menu>
+        </nav>
+        <main>
+            shopping main contect
+            <article>
+                50% off on electronics
+            </article>
+            <figure>
+                image here
+                <figcaption>fig:mobile</figcaption>
+            </figure>
+        </main>
+        <aside>
+            ads here
+        </aside>
+    </section>
+    <footer>copyright 2024</footer>
+</body>
+</html>
